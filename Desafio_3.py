@@ -6,3 +6,6 @@
 # 10 X 0 = 0
 # 10 X 1 = 10
 # E assim sucessivamente....
+numero = int(input('Digite o seu número'))
+for i in range (0,11):
+    print(f'{numero} x {i} = {numero * i}')
